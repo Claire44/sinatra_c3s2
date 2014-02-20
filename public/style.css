@@ -1,0 +1,14 @@
+body {
+		background: url("http://www.hope.co.nz/projects/stars/stars_ss_dx_org.jpg");
+		background-size: cover;
+		color: blue;
+		font-family: "Comic Sans MS";
+		font-size:15px;
+		padding: 10px;
+		text-align: center;
+	}
+
+h1 {
+	color : red;
+	font-family: "Comic Sans MS";
+}

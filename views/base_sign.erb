@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Horoscope</title>
+
+</head>
+<body>
+
+  <h1><%= @name.capitalize %>, you were born on <%= @day %> <%= @month %></h1>
+  <br>
+  <h1>Your star sign is <%= @sign_name %>!</h1>
+
+  <p>Your horoscope can be found <a href='http://www.horoscopes.co.uk/<%= @sign_name %>/Daily-Horoscope.php'>here</a></p>
+
+  <img src = '<%= @sign_image %>' width="200" height="200">
+
+  <p><a href='/'>Try again.</a></p>
+  
+</body>
+</html>
